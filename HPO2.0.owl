@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tianyujia/ontologies/2024/2/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tianyujia/ontologies/2024/2/untitled-ontology-15">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://ontofox.hegroup.org/g2dt2gfh.owl</Import>
+    <Import>http://ontofox.hegroup.org/jxgra7v5.owl</Import>
+    <Import>http://ontofox.hegroup.org/24ep8goc.owl</Import>
+    <Declaration>
+        <Class IRI="#Abnormal_Intellect-Cognitive-Thought_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abnormal_volitional_states"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irritable_emotions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_Pleasure_capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate_loss_of_Pleasure_capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate_to_severe_Guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delusions_of_Guilt_(this_will_overlap_with_section_on_delusions)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysthymia_(persistent_deep_sadness)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Melancholia_(profound_persistent_sadness)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postive_(higher)_emotion_abnormalities"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0000737"/>
+        <Class IRI="#Irritable_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0012154"/>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0031473"/>
+        <Class IRI="#Irritable_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0031588"/>
+        <Class IRI="#Sadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0033705"/>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_5200271"/>
+        <Class IRI="#Sadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_5200273"/>
+        <Class IRI="#Sadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_6000011"/>
+        <Class IRI="#Guilt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guilt"/>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irritable_emotions"/>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_of_Pleasure_capacity"/>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate_loss_of_Pleasure_capacity"/>
+        <Class IRI="#Diminished_capacity_for_pleasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderate_to_severe_Guilt"/>
+        <Class IRI="#Guilt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rage"/>
+        <Class IRI="#Irritable_emotions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sadness"/>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delusions_of_Guilt_(this_will_overlap_with_section_on_delusions)"/>
+        <Class IRI="#Guilt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysthymia_(persistent_deep_sadness)"/>
+        <Class IRI="#Sadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melancholia_(profound_persistent_sadness)"/>
+        <Class IRI="#Sadness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative_(lower)_emotion_abnormalities"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0100851"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postive_(higher)_emotion_abnormalities"/>
+        <Class IRI="http://purl.obolibrary.org/obo/HP_0100851"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002573"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abnormal_Intellect-Cognitive-Thought_Processes</IRI>
+        <Literal>Abnormal intellect-cognitive-thought processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abnormal_volitional_states</IRI>
+        <Literal>Abnormal volitional states</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diminished_capacity_for_pleasure</IRI>
+        <Literal>Diminished capacity for pleasure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Irritable_emotions</IRI>
+        <Literal>Irritable emotions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Loss_of_Pleasure_capacity</IRI>
+        <Literal>Loss of Pleasure capacity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Moderate_loss_of_Pleasure_capacity</IRI>
+        <Literal>Moderate loss of Pleasure capacity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Moderate_to_severe_Guilt</IRI>
+        <Literal>Moderate to severe Guilt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Delusions_of_Guilt_(this_will_overlap_with_section_on_delusions)</IRI>
+        <Literal>Delusions of Guilt (this will overlap with section on delusions)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dysthymia_(persistent_deep_sadness)</IRI>
+        <Literal>Dysthymia (persistent deep sadness)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Melancholia_(profound_persistent_sadness)</IRI>
+        <Literal>Melancholia (profound persistent sadness)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Negative_(lower)_emotion_abnormalities</IRI>
+        <Literal>Negative (lower) emotion abnormalities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Postive_(higher)_emotion_abnormalities</IRI>
+        <Literal>Positive (higher) emotion abnormalities</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
